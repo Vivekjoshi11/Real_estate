@@ -11,7 +11,7 @@
  * Expose the ledger functionality through the API and integrate it into the provided test project.
  * Include basic tests covering minting, transfers, balances, and failure cases.
 
-
+ 
 ==============Rust Smart Contract Enginee=====================
 
 - Create a new API within the shared project that can integrate with a smart-contract-based ledger.
