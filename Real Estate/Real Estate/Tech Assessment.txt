@@ -1,0 +1,53 @@
+==============Solidity Smart Contract Engineer================
+
+- Create a new API into the shared project that can integrate with smart contracts.
+- Build a simple token ledger in Rust that simulates:
+
+ * Minting tokens
+ * Transferring tokens between accounts
+ * Checking account balances
+ * Basic validation, such as preventing transfers when the balance is insufficient
+ * Keep the ledger implementation independent of a live blockchain/network. The goal is to demonstrate clean Rust architecture and blockchain-oriented logic without requiring an actual blockchain deployment.
+ * Expose the ledger functionality through the API and integrate it into the provided test project.
+ * Include basic tests covering minting, transfers, balances, and failure cases.
+
+
+==============Rust Smart Contract Enginee=====================
+
+- Create a new API within the shared project that can integrate with a smart-contract-based ledger.
+- Build a simple token ledger in Rust that simulates:
+
+ * Minting tokens
+ * Transferring tokens between accounts
+ * Checking account balances
+ * Basic validation, such as preventing transfers when the balance is insufficient
+ * Keep the ledger implementation independent of a live blockchain/network. The goal is to demonstrate clean Rust architecture and blockchain-oriented logic without requiring an actual blockchain deployment.
+ * Expose the ledger functionality through the API and integrate it into the provided test project.
+ * Include basic tests covering minting, transfers, balances, and failure cases.
+
+
+===============Full-Stack Blockchain Engineer================
+
+- Deploy dark(night) mode in the first page without using AI
+- Enable the wallet connection function of the first page (currently not working)
+- Create a new API into the shared project that can integrate with smart contracts
+
+
+===============Web3 Frontend Engineer========================
+
+- Wallet Connection
+ *Implement wallet connection using MetaMask or another compatible Web3 wallet.
+ *Display the connected wallet address and connection status.
+ *Handle basic account or network changes appropriately.
+- Smart Contract Interaction
+ *Read the user's token balance.
+ *Add a simple Transfer form with recipient address, token amount and submit button
+
+
+===============Backend Engineer===============================
+
+Review the existing backend structure and implement or extend one API endpoint for handling application data related to the transfer.
+
+The endpoint should validate the required input and return an appropriate success or error response.
+
+Keep the implementation consistent with the existing project structure.
